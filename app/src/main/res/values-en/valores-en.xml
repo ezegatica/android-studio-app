@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="bienvenido">Welcome to the app!</string>
+    <string name="password">Password</string>
+    <string name="repeatpassword">Repeat password</string>
+    <string name="gotoregister">First time? Sign up!</string>
+    <string name="gotologin">Already have an account? Log in!</string>
+    <string name="register">Register!</string>
+    <string name="login">Sign in!</string>
+    <string name="hola">Hey</string>
+
+</resources>

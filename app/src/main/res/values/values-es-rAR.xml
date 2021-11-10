@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="bienvenido">Bienvenido a la aplicacion!</string>
+    <string name="password">Contraseña</string>
+    <string name="repeatpassword">Repetir contraseña</string>
+    <string name="gotoregister">No tienes una cuenta? Registrate!</string>
+    <string name="gotologin">Ya tienes una cuenta? Inicia sesion!</string>
+    <string name="register">Registrarse!</string>
+    <string name="login">Iniciar sesión!</string>
+    <string name="hola">Hola</string>
+
+</resources>

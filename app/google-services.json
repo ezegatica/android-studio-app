@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "155338406364",
+    "project_id": "tp-java-tic",
+    "storage_bucket": "tp-java-tic.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:155338406364:android:502a65fe578543213d3719",
+        "android_client_info": {
+          "package_name": "app.gati"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "155338406364-g75vs64m71p3be9nmt8dcjqvf36kp1gh.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpgX3hV402kHQguuIG0yjMzqyqKBztS60"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "155338406364-g75vs64m71p3be9nmt8dcjqvf36kp1gh.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
