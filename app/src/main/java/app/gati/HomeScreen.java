@@ -24,7 +24,7 @@ public class HomeScreen extends AppCompatActivity {
     long millisbien;
     int seconds;
     int minutes;
-    long bestTime = 0;
+    long bestTime = 1;
     Handler timerHandler = new Handler();
     Runnable timerRunnable = new Runnable() {
         @Override
@@ -65,12 +65,14 @@ public class HomeScreen extends AppCompatActivity {
                     timerHandler.removeCallbacks(timerRunnable);
                     botonEmpezar.setText(getString(R.string.reiniciar));
                     System.out.println(millis);
-                    if (bestTime > millis || bestTime == 0) {
+                    estado = 2;
+                    if (millis == 0)
+                        return;
+                    if (bestTime > millis || bestTime == 1) {
                         bestTime = millis;
                         textoBestTime.setText(String.format("%d ms",millis));
                     }
 
-                    estado = 2;
                 } else {
                     startTime = System.currentTimeMillis();
                     timerHandler.postDelayed(timerRunnable, 0);
