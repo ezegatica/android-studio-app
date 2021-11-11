@@ -13,5 +13,6 @@
     <string name="empezar">Empezar</string>
     <string name="reiniciar">Reiniciar</string>
     <string name="detener">Detener</string>
+    <string name="best">Mejor tiempo</string>
 
 </resources>
