@@ -8,5 +8,9 @@
     <string name="register">Register!</string>
     <string name="login">Sign in!</string>
     <string name="hola">Hey</string>
-
+    <string name="saludo">Hey, %1$s</string>
+    <string name="empezarInit">0:00:000</string>
+    <string name="empezar">Start</string>
+    <string name="reiniciar">Reset</string>
+    <string name="detener">Stop</string>
 </resources>
